@@ -1,0 +1,49 @@
+.Publicate {
+    background: rgba(255, 255, 255, 0.5);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    font-size: 0.9rem;
+    display: none;
+}
+
+.Publicate .card_P {
+    background: var(--color-white);
+    padding: 3rem;
+    border-radius: var(--card-border-radius);
+    width: 50%;
+    box-shadow: 0 0 1rem var(--color-primary);
+    display: block;
+}
+
+.card_P {
+    display: grid;
+    grid-template-columns: 8rem auto 18rem;
+    gap: 5rem;
+}
+
+.centro .create-post {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    background: var(--color-white);
+    padding: 0.4rem var(--card-padding);
+    border-radius: var(--border-radius);
+}
+
+.centro .create-post input[type="text"] {
+    justify-self: start;
+    width: 100%;
+    background: transparent;
+    padding-left: 1rem;
+    color: var(--color-dark);
+    margin-right: 1rem;
+}
